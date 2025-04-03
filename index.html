@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venčanje - Upload Slika</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dobrodošli!</h1>
+        <p>Postavite slike sa venčanja.</p>
+
+        <label for="file-upload" class="custom-file-upload">
+            Izaberite sliku 📷
+        </label>
+        <input type="file" id="file-upload" accept="image/*">
+
+        <button id="upload-btn">Postavite sliku</button>
+        
+        <div class="gallery">
+            <h2>Vaše slike</h2>
+            <div class="image-grid">
+                <!-- Ovdje će se prikazivati slike -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
